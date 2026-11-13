@@ -3,11 +3,11 @@ deploy_dbt_airbnb:
   outputs:
     dev:
       type: snowflake
-      account: pawzgsw-fv54044
+      account: rjvoecp-uf15748
 
       # User/password auth
-      user: adminuser
-      password: Abc1234567890abc
+      user: susmitha77
+      password: Susmitha@12345
 
       role: accountadmin
       database: AIRBNB
@@ -19,11 +19,11 @@ deploy_dbt_airbnb:
       client_session_keep_alive: False
     prod:
       type: snowflake
-      account: pawzgsw-fv54044
+      account: rjvoecp-uf15748
 
       # User/password auth
-      user: adminuser
-      password: Abc1234567890abc
+      user: susmitha77
+      password: Susmitha@12345
 
       role: accountadmin
       database: AIRBNB
